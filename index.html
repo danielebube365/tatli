@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Tatli is an all-day spot in Abuja for waffles, pancakes, loaded fries, wings and cold drinks. Good food, good vibes. Two locations: Wuse Zone 5 and Gwarinpa." />
+<meta property="og:title" content="Tätli · Waffles, Wings & Good Vibes | Abuja" />
+<meta property="og:description" content="Good food, good vibes. Waffles, pancakes, loaded fries, wings and cold drinks. Two spots in Abuja." />
+<meta property="og:image" content="assets/hero-poster.jpg" />
+<title>Tätli · Waffles, Wings & Good Vibes | Abuja</title>
+<link rel="icon" type="image/png" href="assets/logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- topbar -->
+<div class="topbar">
+  <div class="topbar__in">
+    <span>Good Food · Good Vibes</span>
+    <span class="topbar__sep">✦</span>
+    <span><a href="tel:+2349049680296">0904 968 0296</a></span>
+    <span class="topbar__sep topbar__loc">✦</span>
+    <span class="topbar__loc">Wuse Zone 5 &amp; Gwarinpa, Abuja</span>
+  </div>
+</div>
+
+<!-- nav -->
+<header class="nav" id="nav">
+  <div class="nav__in">
+    <a href="#top" class="nav__brand" aria-label="Tatli home">
+      <img src="assets/logo.png" alt="" class="nav__logo" width="42" height="42" />
+      <span class="nav__word">TÄTLI</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#menu">Menu</a>
+      <a href="#space">The Space</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a href="https://wa.me/2349049680296" target="_blank" rel="noopener" class="nav__cta">Order Now</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+  <div class="nav__mobile" id="navMobile" hidden>
+    <a href="#menu">Menu</a>
+    <a href="#space">The Space</a>
+    <a href="#visit">Visit</a>
+    <a href="https://wa.me/2349049680296" target="_blank" rel="noopener">Order Now</a>
+  </div>
+</header>
+
+<!-- HERO (sticky curtain) -->
+<section class="hero" id="top">
+  <div class="hero__grid">
+    <p class="hero__eyebrow eyebrow reveal">Tätli · Abuja</p>
+    <h1 class="hero__title disp reveal" style="--d:.08s">Good food,<br/><span class="stroke">good vibes.</span></h1>
+    <p class="hero__sub reveal" style="--d:.18s">Waffles, pancakes, loaded fries, wings and cold drinks. Two spots in Abuja, open all day.</p>
+    <div class="hero__cta reveal" style="--d:.28s">
+      <a href="#menu" class="btn btn--fill">See the Menu</a>
+      <a href="https://wa.me/2349049680296" target="_blank" rel="noopener" class="btn btn--line">Order Now</a>
+    </div>
+    <div class="hero__video reveal" style="--d:.2s">
+      <video src="assets/hero.mp4" poster="assets/hero-poster.jpg" autoplay muted loop playsinline preload="metadata"></video>
+    </div>
+  </div>
+  <div class="hero__foot">
+    <div class="wave hero__wave" aria-hidden="true">
+      <svg viewBox="0 0 1200 24" preserveAspectRatio="none" fill="none" stroke="currentColor" stroke-width="3"><path d="M0,12 C40,0 80,24 120,12 C160,0 200,24 240,12 C280,0 320,24 360,12 C400,0 440,24 480,12 C520,0 560,24 600,12 C640,0 680,24 720,12 C760,0 800,24 840,12 C880,0 920,24 960,12 C1000,0 1040,24 1080,12 C1120,0 1160,24 1200,12"/></svg>
+    </div>
+    <div class="hero__scrollcue" aria-hidden="true"><span>Scroll</span><span></span></div>
+  </div>
+</section>
+
+<!-- everything below scrolls OVER the hero -->
+<div class="curtain">
+
+  <!-- marquee -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Waffles <i>✦</i> Pancakes <i>✦</i> Loaded Fries <i>✦</i> Wings <i>✦</i> Sandwiches <i>✦</i> Cold Drinks <i>✦</i> Good Vibes <i>✦</i></span>
+      <span>Waffles <i>✦</i> Pancakes <i>✦</i> Loaded Fries <i>✦</i> Wings <i>✦</i> Sandwiches <i>✦</i> Cold Drinks <i>✦</i> Good Vibes <i>✦</i></span>
+    </div>
+  </div>
+
+  <!-- intro -->
+  <section class="intro section">
+    <h2 class="intro__big disp reveal">More than a meal.<br/>It's the vibe.</h2>
+    <p class="intro__lead reveal" style="--d:.12s">Tatli is where Abuja comes to eat well and hang out. Stacked waffles, syrup-soaked pancakes, loaded fries, saucy wings and cold drinks, served all day in a space built for good company.</p>
+  </section>
+
+  <!-- menu -->
+  <section class="menu" id="menu">
+    <div class="section">
+      <div class="sec-head reveal">
+        <span class="eyebrow">The Menu</span>
+        <h2 class="disp">What we're<br/>known for.</h2>
+      </div>
+      <div class="menu__grid">
+        <article class="card reveal">
+          <div class="card__media"><img src="assets/dish4.jpg" alt="Chicken and waffles with sausage at Tatli" loading="lazy" /></div>
+          <div class="card__body">
+            <span class="card__tag">01</span>
+            <h3 class="card__name">Waffles &amp; Pancakes</h3>
+            <p class="card__desc">Buttermilk waffles, fluffy pancakes, French toast and crepes, with syrup and fresh fruit.</p>
+          </div>
+        </article>
+        <article class="card reveal" style="--d:.1s">
+          <div class="card__media"><img src="assets/dish1.jpg" alt="Sausage loaded fries and BBQ wings at Tatli" loading="lazy" /></div>
+          <div class="card__body">
+            <span class="card__tag">02</span>
+            <h3 class="card__name">Loaded Fries &amp; Wings</h3>
+            <p class="card__desc">Sausage loaded fries and BBQ-sauced wings. The sharing plates that never last.</p>
+          </div>
+        </article>
+        <article class="card reveal" style="--d:.2s">
+          <div class="card__media"><img src="assets/dish5.jpg" alt="An iced cocktail at Tatli" loading="lazy" /></div>
+          <div class="card__body">
+            <span class="card__tag">03</span>
+            <h3 class="card__name">Cold Drinks &amp; Cocktails</h3>
+            <p class="card__desc">Fresh juices, smoothies, coffee and cocktails to wash it all down.</p>
+          </div>
+        </article>
+      </div>
+      <div class="menu__cta reveal">
+        <a href="https://www.instagram.com/tatli.ng/" target="_blank" rel="noopener" class="btn btn--inv-fill">See the Full Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- reel strip -->
+  <section class="reel">
+    <div class="section" style="padding-bottom:0">
+      <div class="sec-head reveal">
+        <span class="eyebrow">In Motion</span>
+        <h2 class="disp">Hot, fresh<br/>and loaded.</h2>
+      </div>
+    </div>
+    <div class="reel__viewport">
+      <div class="reel__track">
+        <figure class="reel__item"><video src="assets/reel1.mp4" poster="assets/reel1-poster.jpg" autoplay muted loop playsinline preload="metadata"></video><figcaption class="reel__cap">Fresh</figcaption></figure>
+        <figure class="reel__item"><video src="assets/reel2.mp4" poster="assets/reel2-poster.jpg" autoplay muted loop playsinline preload="metadata"></video><figcaption class="reel__cap">Loaded</figcaption></figure>
+        <figure class="reel__item"><video src="assets/reel3.mp4" poster="assets/reel3-poster.jpg" autoplay muted loop playsinline preload="metadata"></video><figcaption class="reel__cap">Saucy</figcaption></figure>
+        <figure class="reel__item" aria-hidden="true"><video src="assets/reel1.mp4" poster="assets/reel1-poster.jpg" autoplay muted loop playsinline preload="metadata"></video><figcaption class="reel__cap">Fresh</figcaption></figure>
+        <figure class="reel__item" aria-hidden="true"><video src="assets/reel2.mp4" poster="assets/reel2-poster.jpg" autoplay muted loop playsinline preload="metadata"></video><figcaption class="reel__cap">Loaded</figcaption></figure>
+        <figure class="reel__item" aria-hidden="true"><video src="assets/reel3.mp4" poster="assets/reel3-poster.jpg" autoplay muted loop playsinline preload="metadata"></video><figcaption class="reel__cap">Saucy</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- the space -->
+  <section class="space" id="space">
+    <div class="section">
+      <div class="space__grid">
+        <figure class="space__media reveal">
+          <video src="assets/space.mp4" poster="assets/space-poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Inside Tatli"></video>
+        </figure>
+        <div class="space__copy">
+          <span class="eyebrow reveal">The Space</span>
+          <h2 class="disp reveal" style="--d:.08s">Come hang<br/>out.</h2>
+          <p class="reveal" style="--d:.16s">Good music, good lighting and a room made for catching up. Pull up with friends, order a round of waffles and wings, and stay a while.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- visit -->
+  <section class="visit" id="visit">
+    <div class="section">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Find Us</span>
+        <h2 class="disp">Two spots<br/>in Abuja.</h2>
+      </div>
+      <div class="visit__grid">
+        <article class="loc reveal">
+          <span class="loc__num">01</span>
+          <h3 class="loc__name">Wuse Zone 5</h3>
+          <p class="loc__addr">26 Algiers Street, Wuse Zone 5, Abuja</p>
+          <p class="loc__hours">Mon to Sat · 9am to 9pm<br/>Sunday · 1pm to 9pm</p>
+          <a href="https://www.google.com/maps/search/?api=1&query=Tatli+26+Algiers+Street+Wuse+Zone+5+Abuja" target="_blank" rel="noopener" class="loc__link">Get Directions →</a>
+        </article>
+        <article class="loc reveal" style="--d:.1s">
+          <span class="loc__num">02</span>
+          <h3 class="loc__name">Gwarinpa</h3>
+          <p class="loc__addr">Adetunji Alashe Street, 1st Avenue, Gwarinpa, Abuja</p>
+          <p class="loc__hours">Mon to Sat · 9am to 9pm<br/>Sunday · 1pm to 9pm</p>
+          <a href="https://www.google.com/maps/search/?api=1&query=Tatli+Adetunji+Alashe+1st+Avenue+Gwarinpa+Abuja" target="_blank" rel="noopener" class="loc__link">Get Directions →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- order CTA -->
+  <section class="order" id="order">
+    <div class="section">
+      <div class="order__in">
+        <span class="eyebrow reveal" style="opacity:.6">Hungry?</span>
+        <h2 class="disp reveal" style="--d:.08s">Let's get<br/>you fed.</h2>
+        <p class="reveal" style="--d:.16s">Order on WhatsApp or give us a call. Dine in at Wuse or Gwarinpa, or get it brought to you.</p>
+        <div class="order__cta reveal" style="--d:.24s">
+          <a href="https://wa.me/2349049680296" target="_blank" rel="noopener" class="btn btn--inv-fill">Order on WhatsApp</a>
+          <a href="tel:+2349049680296" class="btn btn--inv">Call 0904 968 0296</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer__in">
+      <span class="footer__word">TÄTLI</span>
+      <div class="footer__soc">
+        <a href="https://www.instagram.com/tatli.ng/" target="_blank" rel="noopener" aria-label="Tatli on Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.64.07-4.85.07s-3.58-.01-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92-.06-1.27-.07-1.64-.07-4.85s.01-3.58.07-4.85C2.38 3.93 3.9 2.38 7.15 2.23 8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 2.7.27.27 2.69.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.2 4.36 2.62 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c4.35-.2 6.78-2.62 6.98-6.98.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.2-4.35-2.62-6.78-6.98-6.98C15.67.01 15.26 0 12 0m0 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32M12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8m6.41-11.85a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88"/></svg></a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Tatli+Wuse+Zone+5+Abuja" target="_blank" rel="noopener" aria-label="Tatli on the map"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a>
+      </div>
+    </div>
+    <p class="footer__copy">© <span id="year">2026</span> Tätli · Wuse Zone 5 &amp; Gwarinpa, Abuja · Website design concept</p>
+  </footer>
+
+</div>
+
+<a href="https://wa.me/2349049680296" target="_blank" rel="noopener" class="wa" aria-label="Order on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.51 5.26l-.999 3.648 3.477-.997zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+</a>
+
+<script src="script.js" defer></script>
+</body>
+</html>
